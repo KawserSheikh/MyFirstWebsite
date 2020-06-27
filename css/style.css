@@ -1,0 +1,49 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{background-color: #f0ffff;}
+
+/* header */
+.header{
+    background-image: url();
+}
+header h1{
+    text-align: center;
+    background-color: rgb(104, 218, 233);
+    font-size: 2em;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+/* menu section */
+.menu{
+
+}
+
+.menu ul{
+
+}
+
+.menu ul li{
+
+}
+
+.menu ul li a{
+
+}
+
+/* body section 1 */
+.section1{
+
+}
+
+/* body section 2 */
+.section2{
+
+}
+
+/* footer */
+footer{
+
+}
+
