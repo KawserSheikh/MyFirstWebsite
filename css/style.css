@@ -1,18 +1,12 @@
 *{margin: 0;padding: 0;box-sizing: border-box;}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-body{
-    font-family: 'Poppins', sans-serif;
-}
+body{font-family: 'Poppins', sans-serif;}
+.container{max-width: 1140px; margin: auto;}
+.row{display: flex; flex-wrap: wrap;}
 
-.container{
-    max-width: 1140px;
-    margin: auto;
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
+
+/*--- header style start ---*/
 
 header{
     position:absolute;
@@ -85,7 +79,9 @@ header .navbar ul li a.active::before{
     width: 100%;
     left: 0;
 }
+/*--- header style end ---*/
 
+/*--- home style start ---*/
 .home{
     min-height: 100vh;
     background-image: url(../img/kawser.jpg);
@@ -156,3 +152,5 @@ header .navbar ul li a.active::before{
     background-color: #fff;
     color: #000000;
 }
+
+/*--- home style end ---*/
